@@ -1,0 +1,68 @@
+2020-04-29 23:33:42 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT * FROM FILM MUSIC PRODUCT[*]"
+Syntax error in SQL statement "SELECT * FROM FILM MUSIC PRODUCT[*]"; SQL statement:
+SELECT * FROM FILM MUSIC PRODUCT [42000-200]
+2020-04-29 23:35:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Il met en sc\u00e8ne Ellen Page, Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard et Leonardo DiCaprio. Celui-... (658)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Il met en sc\u00e8ne Ellen Page, Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard et Leonardo DiCaprio. Celui-... (658)"; SQL statement:
+INSERT INTO "PUBLIC"."FILM"("ID","ANNEE","DESCRIPTION","DUREE","NOM","REALISATEUR")VALUES(?,?,?,?,?,?) [22001-200]
+2020-04-29 23:35:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Il met en sc\u00e8ne Ellen Page, Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard et Leonardo DiCaprio. Celui-... (658)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Il met en sc\u00e8ne Ellen Page, Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard et Leonardo DiCaprio. Celui-... (658)"; SQL statement:
+INSERT INTO "PUBLIC"."FILM"("ID","ANNEE","DESCRIPTION","DUREE","NOM","REALISATEUR")VALUES(?,?,?,?,?,?) [22001-200]
+2020-04-29 23:36:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Erreur lors de la conversion de données "'' (FILM: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_B7AF57F1_81C7_49AC_BAE0_7998C165CD73"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_B7AF57F1_81C7_49AC_BAE0_7998C165CD73"")"
+Data conversion error converting "'' (FILM: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_B7AF57F1_81C7_49AC_BAE0_7998C165CD73"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_B7AF57F1_81C7_49AC_BAE0_7998C165CD73"")"; SQL statement:
+INSERT INTO "PUBLIC"."FILM"("ID","ANNEE","DESCRIPTION","DUREE","NOM","REALISATEUR")VALUES(?,?,?,?,?,?) [22018-200]
+2020-04-29 23:36:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Erreur lors de la conversion de données "'' (FILM: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_B7AF57F1_81C7_49AC_BAE0_7998C165CD73"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_B7AF57F1_81C7_49AC_BAE0_7998C165CD73"")"
+Data conversion error converting "'' (FILM: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_B7AF57F1_81C7_49AC_BAE0_7998C165CD73"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_B7AF57F1_81C7_49AC_BAE0_7998C165CD73"")"; SQL statement:
+INSERT INTO "PUBLIC"."FILM"("ID","ANNEE","DESCRIPTION","DUREE","NOM","REALISATEUR")VALUES(?,?,?,?,?,?) [22018-200]
+2020-04-29 23:36:19 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Leonardo DiCaprio. Celui-ci interpr\u00e8te un \u00ab extracteur \u00bb, un voleur qui subtilise des informations ... (402)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Leonardo DiCaprio. Celui-ci interpr\u00e8te un \u00ab extracteur \u00bb, un voleur qui subtilise des informations ... (402)"; SQL statement:
+INSERT INTO "PUBLIC"."FILM"("ID","ANNEE","DESCRIPTION","DUREE","NOM","REALISATEUR")VALUES(?,?,?,?,?,?) [22001-200]
+2020-04-29 23:36:19 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Leonardo DiCaprio. Celui-ci interpr\u00e8te un \u00ab extracteur \u00bb, un voleur qui subtilise des informations ... (402)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Leonardo DiCaprio. Celui-ci interpr\u00e8te un \u00ab extracteur \u00bb, un voleur qui subtilise des informations ... (402)"; SQL statement:
+INSERT INTO "PUBLIC"."FILM"("ID","ANNEE","DESCRIPTION","DUREE","NOM","REALISATEUR")VALUES(?,?,?,?,?,?) [22001-200]
+2020-04-29 23:45:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT * FROM FILM MUSIC PRODUCT[*] SERIE"
+Syntax error in SQL statement "SELECT * FROM FILM MUSIC PRODUCT[*] SERIE"; SQL statement:
+SELECT * FROM FILM MUSIC PRODUCT SERIE [42000-200]
+2020-04-29 23:47:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DESCRIPTION VARCHAR(255)": "STRINGDECODE('La s\u00e9rie se concentre sur Walter White, un professeur de chimie surqualifi\u00e9 et p\u00e8re de famille, qui... (430)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('La s\u00e9rie se concentre sur Walter White, un professeur de chimie surqualifi\u00e9 et p\u00e8re de famille, qui... (430)"; SQL statement:
+INSERT INTO "PUBLIC"."SERIE"("ID","ANNEE","DESCRIPTION","DUREE","NB_SAISON","NOM","REALISATEUR")VALUES(?,?,?,?,?,?,?) [22001-200]
+2020-04-29 23:47:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Valeur trop longue pour la colonne "DESCRIPTION VARCHAR(255)": "STRINGDECODE('La s\u00e9rie se concentre sur Walter White, un professeur de chimie surqualifi\u00e9 et p\u00e8re de famille, qui... (430)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('La s\u00e9rie se concentre sur Walter White, un professeur de chimie surqualifi\u00e9 et p\u00e8re de famille, qui... (430)"; SQL statement:
+INSERT INTO "PUBLIC"."SERIE"("ID","ANNEE","DESCRIPTION","DUREE","NB_SAISON","NOM","REALISATEUR")VALUES(?,?,?,?,?,?,?) [22001-200]
+2020-04-29 23:48:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Erreur lors de la conversion de données "'' (SERIE: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_8726E220_C3CE_4B40_8C5D_15EC56695FCD"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_8726E220_C3CE_4B40_8C5D_15EC56695FCD"")"
+Data conversion error converting "'' (SERIE: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_8726E220_C3CE_4B40_8C5D_15EC56695FCD"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_8726E220_C3CE_4B40_8C5D_15EC56695FCD"")"; SQL statement:
+INSERT INTO "PUBLIC"."SERIE"("ID","ANNEE","DESCRIPTION","DUREE","NB_SAISON","NOM","REALISATEUR")VALUES(?,?,?,?,?,?,?) [22018-200]
+2020-04-29 23:48:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Erreur lors de la conversion de données "'' (SERIE: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_8726E220_C3CE_4B40_8C5D_15EC56695FCD"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_8726E220_C3CE_4B40_8C5D_15EC56695FCD"")"
+Data conversion error converting "'' (SERIE: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_8726E220_C3CE_4B40_8C5D_15EC56695FCD"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_8726E220_C3CE_4B40_8C5D_15EC56695FCD"")"; SQL statement:
+INSERT INTO "PUBLIC"."SERIE"("ID","ANNEE","DESCRIPTION","DUREE","NB_SAISON","NOM","REALISATEUR")VALUES(?,?,?,?,?,?,?) [22018-200]
+2020-04-29 23:59:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Erreur lors de la conversion de données "'' (MUSIC: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_A9C7F975_4330_46ED_909D_2319FC9E8EA6"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_A9C7F975_4330_46ED_909D_2319FC9E8EA6"")"
+Data conversion error converting "'' (MUSIC: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_A9C7F975_4330_46ED_909D_2319FC9E8EA6"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_A9C7F975_4330_46ED_909D_2319FC9E8EA6"")"; SQL statement:
+INSERT INTO "PUBLIC"."MUSIC"("ID","ANNEE","ARTIST","NOM_ALBUM","DUREE")VALUES(?,?,?,?,?) [22018-200]
+2020-04-29 23:59:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Erreur lors de la conversion de données "'' (MUSIC: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_A9C7F975_4330_46ED_909D_2319FC9E8EA6"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_A9C7F975_4330_46ED_909D_2319FC9E8EA6"")"
+Data conversion error converting "'' (MUSIC: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_A9C7F975_4330_46ED_909D_2319FC9E8EA6"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_A9C7F975_4330_46ED_909D_2319FC9E8EA6"")"; SQL statement:
+INSERT INTO "PUBLIC"."MUSIC"("ID","ANNEE","ARTIST","NOM_ALBUM","DUREE")VALUES(?,?,?,?,?) [22018-200]
+2020-05-01 23:10:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT * FROM MUSIC SERIE PRODUCT[*] MUSIC FILM"
+Syntax error in SQL statement "SELECT * FROM MUSIC SERIE PRODUCT[*] MUSIC FILM"; SQL statement:
+SELECT * FROM MUSIC SERIE PRODUCT MUSIC FILM [42000-200]
+2020-05-01 23:10:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT * FROM FILM AND MUSIC[*]"
+Syntax error in SQL statement "SELECT * FROM FILM AND MUSIC[*]"; SQL statement:
+SELECT * FROM FILM and MUSIC [42000-200]
+2020-05-01 23:11:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Erreur de syntaxe dans l'instruction SQL "SELECT * FROM *[*]"; attendu "identifier"
+Syntax error in SQL statement "SELECT * FROM *[*]"; expected "identifier"; SQL statement:
+SELECT * FROM * [42001-200]
